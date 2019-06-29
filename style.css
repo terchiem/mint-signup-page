@@ -11,6 +11,8 @@ html {
 
 body {
   margin: 0;
+  background: #ECEEF1;
+  color: rgb(82, 82, 82);
 }
 
 h1, h2, h3,
@@ -28,3 +30,164 @@ li {
   text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+  color: #0077C5;
+}
+
+button {
+  background: #0077C5;
+  color: white;
+  border-radius: 4px;
+}
+
+/* header */
+header {
+  float: right;
+  width: 100%;
+  text-align: right;
+  font-size: 14px;
+  padding: 10px 28px;
+  margin: 10px 0;
+}
+
+header button {
+  float: right;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin-left: 10px;
+}
+
+/* logo */
+.logo {
+  color: gray;
+  text-align: center;
+}
+
+.icon {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  line-height: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.mint {
+  background: rgb(12, 173, 173);
+}
+
+.qb {
+  background: rgb(0, 179, 89);
+}
+
+.turbotax {
+  background: rgb(184, 11, 11);
+}
+
+.logo p {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.logo ul {
+  margin: 14px;
+}
+
+.logo li {
+  margin-left: 8px;
+}
+
+/* main form */
+.form-container {
+  background: white;
+  border: 1px solid rgb(184, 184, 184);
+  border-radius: 2px;
+  margin: 20px auto;
+  padding: 30px;
+  width: 380px;
+}
+
+.form-container h1 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-top: 30px;
+}
+
+aside {
+  font-size: 10px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.form-container input {
+  width: 100%;
+  height: 30px;
+  border-radius: 2px;
+  border: 1px solid rgb(158, 158, 158);
+  margin-top: 8px;
+  margin-bottom: 26px;
+}
+
+.form-container button {
+  width: 100%;
+  border: none;
+  padding: 12px 0;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.form-container p {
+  text-align: center;
+  font-size: 14px;
+}
+
+.tos-note {
+  font-style: italic;
+  color: rgb(143, 143, 143);
+  padding: 36px 12px;
+}
+
+.tos-note p {
+  font-size: 13px;
+}
+
+.terms-footer {
+  background: #ECEEF1;
+  color: rgb(143, 143, 143);
+  margin: 0 -30px;
+  margin-bottom: -30px;
+  padding: 22px;
+}
+
+.terms-footer p {
+  font-size: 10px;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin: 26px auto;
+}
+
+.footer-nav {
+  width: 100%;
+  color: gray;
+  margin: 8px 0;
+}
+
+.footer-nav a {
+  color: gray;
+}
+
+.footer-nav li {
+  margin-left: 4px;
+}
